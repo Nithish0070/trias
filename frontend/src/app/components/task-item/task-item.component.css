@@ -1,0 +1,29 @@
+.task {
+    background: #fdf5f5;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 70px;
+    box-shadow: rgba(73, 73, 138, 0.277) 7px 10px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right:20% ;
+    
+
+}
+
+.task.reminder {
+    border-left: 5px solid rgb(61, 76, 61);
+}
+
+.task h3 {
+    font-size: x-large;
+    text-align: center;
+    justify-content: space-between;
+    font-family:inherit;
+    
+}
+.bton{
+    text-align: right;
+    margin-right: 47px;
+}

@@ -1,0 +1,15 @@
+<form  class="add-form">
+    <div class="form-control">
+      
+    <input
+        type="text"
+        name="text"
+        id="text"
+        [(ngModel)]="text"
+        placeholder="Enter the tasks here.."
+      />
+      <br>
+      <app-button style="color: rgb(235, 235, 235);" text="ADD TASK" (click)="onAdd()"></app-button>
+      
+    </div>
+</form>
