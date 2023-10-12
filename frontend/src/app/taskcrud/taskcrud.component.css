@@ -1,0 +1,50 @@
+
+h1{
+    padding: 20px;
+    border: 2px solid black;
+    color: rgb(213, 221, 204);
+    background-color: rgb(31, 31, 70);
+    margin-top: 0;
+    }
+
+.border{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(49, 49, 156, 0.755);
+    border: rgba(25, 20, 20, 0.249) 2px solid;
+    border-radius: 9px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+button{
+    padding: 7px;
+    
+}
+input{
+    padding: 10px;
+}
+table{
+    margin-top: 2%;
+    width: 100%;
+   
+
+}
+body{
+    margin-top: 0;
+}
+
+
+tr{
+    padding-top: 1px;
+    border: 2px solid black;
+}
+.task{
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+.task:hover{
+    background-color: aquamarine;
+}

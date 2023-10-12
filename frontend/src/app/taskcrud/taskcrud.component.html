@@ -1,0 +1,36 @@
+<html>
+<h1 style="text-align: center;">TO DO LIST</h1>
+<br>
+<body style="width: 100">
+  <div class="border">
+  <form>
+    Enter the task:<br><br>
+    <input type="text" [(ngModel)]="title" [ngModelOptions]="{ standalone: true }"
+     placeholder="enter your task here.."><br><br>
+    <button (click)="save()" type="submit" style="background-color: gray;">enter</button>
+</form>
+    <br><br>
+  </div><br><br>
+  <hr><br><br>
+
+  
+    <div onclick="bgcolor()" class="tasks" 
+    style="border: 0px solid black; display: flex;
+    border-radius: 15px; margin-bottom: 3%; padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.448) 5px 10px;
+    background-color: rgb(229, 229, 229);
+  justify-content: center;
+    "
+  
+    *ngFor="let tasksitem of tasksarray">
+      
+        <p style="padding-left: 200px;">{{tasksitem.title}}</p>
+        <p style="padding-left: 270px;">{{tasksitem.created_at}}</p>
+        <button style="margin-left: 40%; border-radius: 20px; background-color: gray;" type="button" (click)="setUpdate(tasksitem)">Edit</button>
+        <button style="margin-left: 1%;border-radius: 20px; background-color: rgb(160, 6, 6);color: aliceblue;" type="button" (click)="setDelete(tasksitem.id)">Delete</button>
+
+        
+      </div>
+    
+</body>
+</html>
